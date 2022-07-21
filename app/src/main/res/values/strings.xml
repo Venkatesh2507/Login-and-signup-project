@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Login and SIgnup</string>
+    <string name="not_a_user_sign_up">Not a user? <b>Sign up</b></string>
+    <string name="already_a_user">Already a user? <b>Log in</b></string>
+</resources>
