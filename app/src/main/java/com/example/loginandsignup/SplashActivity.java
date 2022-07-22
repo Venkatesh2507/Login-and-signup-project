@@ -12,6 +12,9 @@ public class SplashActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().hide();
+        }
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
@@ -19,6 +22,8 @@ public class SplashActivity extends AppCompatActivity {
                 finish();
             }
         },2000);
+
+
 
     }
     }
